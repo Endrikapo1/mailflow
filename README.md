@@ -25,7 +25,7 @@ A professional CLI application for sending personalized mass emails. Built with 
 
 1. Clone or download this repository:
 ```bash
-git clone https://github.com/yourusername/mailflow.git
+git clone https://github.com/gmodev/mailflow.git
 cd mailflow
 ```
 

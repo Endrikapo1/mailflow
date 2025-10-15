@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Candidatura Spontanea</title>
+</head>
+<body style="margin: 0; padding: 0; font-family: Arial, Helvetica, sans-serif; background-color: #f4f4f4;">
+    <!-- Preheader (texto oculto que algunos clientes muestran en la bandeja) -->
+    <div style="display:none;max-height:0;overflow:hidden;opacity:0;color:transparent;">
+      Candidatura spontanea di {{sender_name}} – Stagione Invernale 2025/26.
+    </div>
+
+    <div style="font-family:Arial,Helvetica,sans-serif; line-height:1.6; color:#333; max-width:600px; margin:auto; background-color:#ffffff; border:1px solid #e0e0e0; border-radius:10px; padding:30px;">
+      <!-- Header minimal -->
+      <h2 style="text-align:center; color:#222; letter-spacing:0.5px; margin:0 0 6px 0;">
+        Candidatura Spontanea
+      </h2>
+      <p style="text-align:center; font-size:14px; color:#666; margin:0;">
+        Stagione Invernale 2025/26
+      </p>
+      <hr style="border:none; border-top:1px solid #ddd; margin:20px 0;">
+
+      <!-- Saludo personalizado -->
+      <p style="margin:0 0 12px 0;">
+        Gentile <strong>{{contact_name}}</strong>
+      </p>
+
+      <!-- Cuerpo -->
+      <p style="margin:0 0 12px 0;">
+        mi chiamo <strong>{{sender_name}}</strong> e Le invio il mio CV per eventuali opportunità di lavoro.
+        Sono disponibile e interessato a posizioni operative o stagionali.
+      </p>
+
+      <ul style="margin:0 0 12px 18px; padding:0;">
+        <li><strong>Disponibilità:</strong> immediata o concordabile</li>
+        <li><strong>Lingue:</strong> [YOUR LANGUAGES]</li>
+        <li><strong>Documenti:</strong> [YOUR DOCUMENT STATUS]</li>
+      </ul>
+
+      <p style="margin:0 0 12px 0;">
+        Allego il mio CV aggiornato (<em>PDF</em>). Resto a disposizione per ulteriori informazioni o per un eventuale colloquio.
+      </p>
+
+      <!-- Firma -->
+      <p style="margin:20px 0 0 0;">
+        Cordiali saluti,<br>
+        <strong>{{sender_name}}</strong><br>
+        📞 {{sender_phone}}<br>
+        ✉️ <a href="mailto:{{sender_email}}" style="color:#1155cc; text-decoration:none;">{{sender_email}}</a>
+      </p>
+
+      <!-- Footer discreto y humano -->
+      <hr style="border:none; border-top:1px solid #eee; margin:25px 0;">
+      <p style="font-size:11px; color:#888; text-align:center; margin:0;">
+        Se non foste interessati, vi ringrazio comunque per l'attenzione.<br>
+        Vi auguro una buona giornata.
+      </p>
+    </div>
+</body>
+</html>
